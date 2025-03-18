@@ -52,14 +52,14 @@ npm run start
 ```
 
 ### 📌 2️⃣ **Obtener todas las facturas**
-Método: GET
-URL: /facturas
-Descripción: Obtiene la lista de todas las facturas registradas.
+**Método:** `GET`
+**URL:** `/facturas`
+**Descripción:** Obtiene la lista de todas las facturas registradas.
 
 ### 📌 3️⃣ **Pagar una factura**
-Método: POST
-URL: /facturas/pagar/:id
-Descripción: Simula el pago de una factura cambiando su estado a "Pagada" y generando un ID de transacción.
+**Método:** `POST`
+**URL:** `/facturas/pagar/:id`
+**Descripción:** Simula el pago de una factura cambiando su estado a "Pagada" y generando un ID de transacción.
 📌 **Body JSON:**  
 ```json
 {
@@ -71,7 +71,7 @@ Descripción: Simula el pago de una factura cambiando su estado a "Pagada" y gen
 
 
 ### 📌 4️⃣ **Obtener notificaciones de pago**
-Método: GET
-URL: /notificaciones
-Descripción: Obtiene el historial de notificaciones de pagos realizados.
+**Método:** `GET`
+**URL:** `/notificaciones`
+**Descripción:** Obtiene el historial de notificaciones de pagos realizados.
 
